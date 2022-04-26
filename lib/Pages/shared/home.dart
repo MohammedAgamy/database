@@ -32,6 +32,13 @@ class _HomeState extends State<Home> {
             });
           },
             icon: Icon(Icons.settings),),
+
+          IconButton(onPressed: (){
+            setState(() {
+              Navigator.pushNamed(context, 'course');
+            });
+          },
+            icon: Icon(Icons.menu_book),),
         ],
       ),
 
